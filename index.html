@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Una carta para ti</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="scene" id="scene" role="button" tabindex="0" aria-label="Toca para abrir la carta">
+    <div class="cloud cloud-one"></div>
+    <div class="cloud cloud-two"></div>
+    <div class="cloud cloud-three"></div>
+    <div class="floating-hearts" aria-hidden="true">♡　♡　♡　♡　♡</div>
+
+    <article class="letter" id="letter" aria-label="Carta especial">
+      <div class="paper-border"></div>
+      <div class="sticker sticker-left"><img src="cinnamoroll-hearts-clean.png" alt="Cinnamoroll con corazones"></div>
+      <div class="sticker sticker-right"><img src="cinnamoroll-cookie-clean.png" alt="Cinnamoroll con una galleta"></div>
+      <div class="sticker sticker-bottom"><img src="cinnamoroll-teddy-clean.png" alt="Cinnamoroll con un peluche"></div>
+      <div class="card-content">
+        <p class="eyebrow">para alguien muy especial</p>
+        <h1>Una cartita para ti</h1>
+        <p class="message" id="message" aria-live="polite"></p>
+      </div>
+    </article>
+
+    <section class="envelope" aria-hidden="true">
+      <div class="envelope-back"></div>
+      <div class="envelope-front"></div>
+      <div class="envelope-flap"></div>
+    </section>
+
+    <p class="hint" id="hint">Toca la pantalla para abrir la carta</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
